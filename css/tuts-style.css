@@ -1,0 +1,47 @@
+/*
+    NOW FOR THE NAVIGATION BAR
+*/
+
+nav {
+    position: fixed;
+    top: 0;
+    height: auto;
+    background: #2a3744;
+    width: 100%;
+    padding: 1em 0;
+    z-index: 10;
+}
+
+
+/* LINKS AND BUTTONS THEREUPON.. */
+
+nav a {
+    color: #c0ccdb;
+    display: inline-block;
+    font-size: .8125em;
+    line-height: 1.2307em;
+    text-decoration: none;
+}
+nav a:hover {
+    color: #c0ccdb;
+    text-decoration: underline;
+}
+
+nav .global-nav__header-tuts-logo-link img {
+	width: 70px;
+	position: relative;
+	top: 5px;
+	margin-right: 20px;
+}
+
+button {
+    text-decoration: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.addthis_toolbox {
+	width: 100%;
+	padding: 1em 0 0 0;	
+}
