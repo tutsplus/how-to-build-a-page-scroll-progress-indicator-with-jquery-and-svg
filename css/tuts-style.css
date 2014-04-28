@@ -7,13 +7,18 @@ nav {
     top: 0;
     height: auto;
     background: #2a3744;
+    padding: 40px 110px 40px 20px;
     width: 100%;
-    padding: 40px 20px;
+    box-sizing: border-box;
     z-index: 10;
 }
 
 
 /* LINKS AND BUTTONS THEREUPON.. */
+
+nav .global-nav__header-tuts-logo-link {
+	margin-bottom: .5em;
+}
 
 nav a {
     color: #c0ccdb;
@@ -25,6 +30,10 @@ nav a {
 nav a:hover {
     color: #c0ccdb;
     text-decoration: underline;
+}
+
+nav a.main-link {
+	margin-right: 2em;
 }
 
 nav .global-nav__header-tuts-logo-link img {
