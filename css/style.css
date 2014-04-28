@@ -96,6 +96,7 @@ svg .animated-circle {
 	position: fixed;
 	top: 0;
 	left: 0;
-	height: 3px;
+	height: 6px;
 	background-color: #0A74DA;
+    z-index: 20;
 }
