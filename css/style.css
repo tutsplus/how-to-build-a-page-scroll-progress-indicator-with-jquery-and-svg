@@ -27,7 +27,7 @@ h1 {
 
 article header {
 	border-top: 3px solid #777;
-	padding: 80px 0;
+	padding: 160px 0 80px 0;
 }
 
 .article-content {
@@ -41,7 +41,8 @@ p {
 }
 
 .container {
-	width: 700px;
+	width: 90%;
+	max-width: 800px;
 	margin: 0 auto;
 }
 
@@ -60,10 +61,11 @@ footer {
 
 .progress-indicator {
 	position: fixed;
-	top: 30px;
-	right: 30px;
+	top: 20px;
+	right: 20px;
 	width: 100px;
 	height: 100px;
+    z-index: 20;
 }
 .progress-count {
 	position: absolute;
